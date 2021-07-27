@@ -5,7 +5,7 @@ import requests
 
 client = commands.Bot(command_prefix='$')
 slash = SlashCommand(client, sync_commands=True)
-guild_ids = [722437023981633546]
+guild_ids = []
 @client.event
 async def on_ready():
         print(f"[!] Initializing...")
